@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MysteryBox</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <section class="modal">
+        <div class="modal-content">
+          <h3 class="modal-title">Selecciona el estado inicial</h3>
+          <div class="grid-container">
+            <div class="box square-1"></div>
+            <div class="box square-2"></div>
+            <div class="box square-3"></div>
+            <div class="box square-4"></div>
+          </div>
+          <button class="btn" id="modal-btn">Continuar</button>
+        </div>
+      </section>
+      <section class="results">
+        <div class="text-content"></div>
+        <button class="btn history-btn">Show history</button>
+        <button class="btn clear-btn">Clear history</button>
+      </section>
+      <div class="container">
+        <h1 class="title">Mystery Box Game</h1>
+        <div class="game"></div>
+      </div>
+      <div class="btn-container">
+        <button class="btn start-btn">Start</button>
+        <button class="btn restart-btn">Restart</button>
+      </div>
+    </main>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

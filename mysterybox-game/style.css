@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  /* Colors */
+  /* primary */
+  --light-blue: rgb(10, 254, 254);
+  --light-pink: rgb(252, 148, 200);
+  --orange: rgb(254, 138, 12);
+  --red: rgb(229, 14, 12);
+  /* secondary */
+  --black: rgb(0, 0, 0);
+  --transparent-black: rgba(35, 35, 35, 0.4);
+  --dark-transparent-black: rgba(35, 35, 35, 0.6);
+  --white: rgb(240, 240, 240);
+  --gray: rgb(95, 95, 95);
+  --light-gray: rgb(219, 219, 219);
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Press Start 2P", sans-serif;
+  color: var(--white);
+  background-color: var(--black);
+  background-image: url(images/bg-img1.webp);
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  background-position: bottom right;
+}
+
+.main {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  font-size: 10px;
+  line-height: 2;
+}
+
+.text-content {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.info-container {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background-color: var(--dark-transparent-black);
+}
+
+.history-btn {
+  margin-top: auto;
+}
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  background-color: var(--transparent-black);
+  backdrop-filter: blur(10px);
+}
+
+.modal {
+  animation: fade-in 0.5s;
+}
+
+.hidden {
+  display: none;
+  animation: fade-out 0.5s;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  background-color: var(--dark-transparent-black);
+  border: solid 4px var(--white);
+}
+
+.modal-title {
+  max-width: 250px;
+  text-align: center;
+  text-shadow: -2px 2px 3px var(--black);
+}
+
+.grid-container {
+  width: min(180px, 90%);
+  aspect-ratio: 1/1;
+  margin: 20px auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.box {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 32px;
+  color: var(--black);
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px;
+  font-family: "Press Start 2P", sans-serif;
+  box-shadow: -4px 4px 3px var(--black);
+  font-size: 12px;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.title {
+  padding: 20px;
+  text-align: center;
+  text-shadow: -4px 4px 3px var(--gray);
+}
+
+.game {
+  margin: 20px auto;
+  width: min(400px, 90%);
+  aspect-ratio: 2/3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.square {
+  color: var(--black);
+  font-size: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.square-1 {
+  background-color: var(--light-blue);
+}
+
+.square-2 {
+  background-color: var(--light-pink);
+}
+
+.square-3 {
+  background-color: var(--orange);
+}
+
+.square-4 {
+  background-color: var(--red);
+}
+
+.square-5 {
+  background-color: var(--gray);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--transparent-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-blue);
+  border-radius: 6px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
