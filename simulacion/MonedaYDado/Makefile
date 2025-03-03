@@ -2,8 +2,7 @@
 CXX = g++
 
 # Flags del compilador
-CXXFLAGS = -Wall -Wextra -std=c++17 -Iincludes `pkg-config --cflags opencv4`
-LDFLAGS = `pkg-config --libs opencv4`
+CXXFLAGS = -Wall -Wextra -std=c++20 -Iincludes
 
 # Directorios
 SRC_DIR = src
@@ -26,7 +25,7 @@ all: $(BUILD_DIR) $(TARGET)
 
 # Compilación del ejecutable
 $(TARGET): $(OBJS)
-	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) -o $@ $^
 
 # Compilación de cada archivo .cpp en su correspondiente .o
 $(BUILD_DIR)/%.o: %.cpp | $(BUILD_DIR)/$(SRC_DIR)
