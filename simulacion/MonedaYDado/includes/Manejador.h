@@ -1,14 +1,16 @@
 #ifndef MANEJADOR_H
 #define MANEJADOR_H
 
+#include <string>
+
 class Manejador {
 private:
   int corridas;
   int numLanzamientos;
 public:
   Manejador();
-  void LanzarMonedas();
-  void LanzarDados();
+  std::string LanzarMonedas();
+  std::string LanzarDados();
 };
 
 #endif
