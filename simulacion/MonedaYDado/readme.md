@@ -10,28 +10,61 @@ Antes de compilar y ejecutar el proyecto, asegúrate de tener instaladas las sig
 - **Make** para la automatización de la compilación.
 
 ### Instalación en Linux (Debian/Ubuntu)
+
 ```sh
 sudo apt update
 sudo apt install build-essential
 ```
 
 ### Instalación en Arch Linux
+
 ```sh
 sudo pacman -S base-devel
 ```
 
-### Instalación en Windows (con MinGW)
-1. Descarga e instala [MinGW-w64](https://www.mingw-w64.org/).
-2. Asegúrate de agregar `mingw32-make` al PATH.
+### Instalación en Windows
+
+1. Descarga e instala [Chocolatey](https://community.chocolatey.org/).
+2. Una vez instalado chocolatey revisa si la instalacion se completo adecuadamente
+
+```sh
+choco --version
+```
+
+3. Utiliza esta herramienta para instalar mingw
+
+```sh
+choco install mingw
+```
+
+4. Verifica que el compilador g++ esta correctamente instalado
+
+```sh
+g++ --version
+```
+
+5. Instala make con chocolatey
+
+```sh
+choco install make
+```
+
+6. Verifica instalacion
+
+```sh
+make --version
+```
 
 ## Compilación y Ejecución
 
 Para compilar el proyecto, usa el siguiente comando en la terminal:
+
 ```sh
 make
 ```
 
 Para ejecutar el programa compilado:
+
 ```sh
 ./build/program
 ```
@@ -51,8 +84,7 @@ Para ejecutar el programa compilado:
 ## Limpieza del Proyecto
 
 Para eliminar los archivos compilados y limpiar la carpeta `build/`, ejecuta:
+
 ```sh
 make clean
 ```
-
-
