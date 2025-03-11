@@ -1,59 +1,25 @@
-#include "Manejador.h"
+#include "ManejadorRuta.h"
 #include <iostream>
 #include <fstream>
 
-void printMenu(int& seleccion) {
-  system("clear");
-  std::cout << "###### MENU PRINCIPAL ######" << std::endl;
-  std::cout << "1. Lanzar monedas" << std::endl;
-  std::cout << "2. Lanzar dados" << std::endl;
-  std::cout << "3. Salir" << std::endl;
+int main() {
+  int autobusesSeleccionados = 0, tiempoDeSimulacionSeleccionado = 0;
+  std::string ArchivoDeSalida;
 
-  std::cout << "\nSeleccione una opcion: ";
-  std::cin >> seleccion;
-}
+  std::cout << "Simulación de Autobuses" << std::endl << std::endl;
+  std::cout << "Ingrese la cantidad de autobuses: ";
+  std::cin >> autobusesSeleccionados;
+  std::cout << "Ingrese el tiempo de simulación: ";
+  std::cin >> tiempoDeSimulacionSeleccionado;
 
-void esperar() {
-  std::cout << "\nPresione Enter para continuar...";
-  std::cin.ignore();
-  std::cin.get();
-}
+  ManejadorRuta Ruta(autobusesSeleccionados, tiempoDeSimulacionSeleccionado);
 
-void getNombreArchivo(std::string& nombreArchivo) {
-  std::cout << "\nIntroduzca el nombre del archivo: ";
-  std::cin >> nombreArchivo;
-}
+  std::cout << "Selecciona el nombre del archivo de salida: ";
+  std::cin >> ArchivoDeSalida;
 
-void almacenaResultados(const std::string& nombreArchivo, const std::string& resultados) {
-  std::string archivoExtension = nombreArchivo + ".txt";
-  std::ofstream archivo;
-  archivo.open(archivoExtension);
-  archivo << resultados;
-  archivo.close();
-}
-
-int main() { 
-  Manejador manejador;
-  std::string nombreArchivo;
-
-  int seleccion = 0;
-
-  while (seleccion != 3) {
-    printMenu(seleccion);
-
-    if (seleccion == 1) {
-      getNombreArchivo(nombreArchivo);
-      system("clear");
-      almacenaResultados(nombreArchivo, manejador.LanzarMonedas());
-      esperar();
-
-    } else if (seleccion == 2) {
-      getNombreArchivo(nombreArchivo);
-      system("clear");
-      almacenaResultados(nombreArchivo, manejador.LanzarDados());
-      esperar();
-    }
-  }
+  std::ofstream Archivo(ArchivoDeSalida + ".txt");
+  Archivo << Ruta.Simular();
+  Archivo.close();
 
   return 0;
 }
