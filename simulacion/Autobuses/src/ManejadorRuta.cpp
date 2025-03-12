@@ -27,7 +27,7 @@ std::string ManejadorRuta::Simular() {
     nuevasPosiciones[i] = posicionesAutobuses[i];
   }
 
-  while (tiempoActual < TiempoDeSimulacion) {
+  while (tiempoActual <= TiempoDeSimulacion) {
     for (int i = 0; i < CantidadDeTerminales; i++) {
       // Actualizar Personas en la terminal
       if (tiempoActual % Terminales[i].getLapsoDeLLegadaDePersonas() == 0) {
