@@ -46,6 +46,8 @@ std::string ManejadorRuta::Simular() {
         resultados << Terminales[terminalActual].RecibirAutobus(Autobuses[j]);
         resultados << "Personas abordo del autobus despues de recibir: " << Autobuses[j].getPasajerosAbordo() << std::endl;
         resultados << "Personas esperando en terminal: " << Terminales[terminalActual].getPersonasEsperando() << std::endl;
+
+        std::cout << resultados.str();
         
         // Marcar la nueva posición sin modificar la actual aún
         nuevasPosiciones[j] = (terminalActual + 1) % CantidadDeTerminales;
