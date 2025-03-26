@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-Wextra",
+      "-std=c++17",
+      "-Iincludes",
+      "-I/usr/include/opencv4",
+      "-c",
+      "-o",
+      "build/main.o",
+      "main.cpp"
+    ],
+    "directory": "/home/john/Dev/projects/moneda",
+    "file": "/home/john/Dev/projects/moneda/main.cpp",
+    "output": "/home/john/Dev/projects/moneda/build/main.o"
+  }
+]
