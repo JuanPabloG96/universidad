@@ -11,6 +11,7 @@ public:
   float distribucionPoisson(int media, int tiempoSimulacion);
   int distribucionUniforme(int vmin, int vmax);
   float valorRandom();
+  int factorial(int k);
 };
 
 #endif

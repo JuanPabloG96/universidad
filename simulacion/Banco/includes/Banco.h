@@ -4,6 +4,7 @@
 #include "Caja.h"
 #include "Cola.h"
 #include <vector>
+#include <string>
 
 class Banco {
 private:
@@ -17,7 +18,7 @@ private:
 public:
   Banco();
   Banco(int normales, int tiempoSimulacion);
-  void Simular();
+  std::string Simular();
 };
 
 #endif
