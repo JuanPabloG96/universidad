@@ -1,0 +1,291 @@
+Reporte de Simulación Bancaria
+Tiempo de Simulación: 300 minutos
+Número de Cajas Normales: 2
+Numero de cajas Premier: 1
+
+Tiempo de llegada: minuto 17 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 8 minutos
+
+Tiempo de llegada: minuto 22 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 2 atiende cliente. Tiempo de servicio: 3 minutos
+Caja Normal 1 liberada en minuto 25
+Caja Normal 2 liberada en minuto 25
+
+Tiempo de llegada: minuto 35 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 37
+
+Tiempo de llegada: minuto 49 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 4 minutos
+Caja Premier liberada en minuto 49
+
+Tiempo de llegada: minuto 76 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 77
+
+Tiempo de llegada: minuto 79 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 2 minutos
+
+Tiempo de llegada: minuto 80 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 2 atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 81
+Caja Normal 2 liberada en minuto 82
+
+Tiempo de llegada: minuto 94 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 6 minutos
+
+Tiempo de llegada: minuto 99 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 2 atiende cliente. Tiempo de servicio: 3 minutos
+Caja Normal 1 liberada en minuto 100
+Caja Normal 2 liberada en minuto 102
+
+Tiempo de llegada: minuto 105 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 106
+
+Tiempo de llegada: minuto 112 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 5 minutos
+Caja Premier liberada en minuto 112
+
+Tiempo de llegada: minuto 125 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 126
+
+Tiempo de llegada: minuto 131 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 132
+
+Tiempo de llegada: minuto 137 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 138
+
+Tiempo de llegada: minuto 139 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 6 minutos
+
+Tiempo de llegada: minuto 143 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 2 atiende cliente. Tiempo de servicio: 5 minutos
+
+Tiempo de llegada: minuto 145 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 12 minutos
+Caja Normal 1 liberada en minuto 145
+Caja Premier liberada en minuto 145
+Caja Normal 2 liberada en minuto 148
+
+Tiempo de llegada: minuto 150 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 2 minutos
+Caja Premier liberada en minuto 150
+
+Tiempo de llegada: minuto 152 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 2 minutos
+Caja Premier liberada en minuto 152
+
+Tiempo de llegada: minuto 155 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 157
+
+Tiempo de llegada: minuto 160 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 161
+
+Tiempo de llegada: minuto 162 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 163
+
+Tiempo de llegada: minuto 164 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 1 minutos
+Caja Premier liberada en minuto 164
+
+Tiempo de llegada: minuto 172 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 174
+
+Tiempo de llegada: minuto 178 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 180
+
+Tiempo de llegada: minuto 181 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 5 minutos
+
+Tiempo de llegada: minuto 185 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 2 atiende cliente. Tiempo de servicio: 6 minutos
+
+Tiempo de llegada: minuto 186 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 186
+Caja Premier liberada en minuto 186
+Caja Normal 2 liberada en minuto 191
+
+Tiempo de llegada: minuto 195 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 197
+
+Tiempo de llegada: minuto 203 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 1 liberada en minuto 204
+
+Tiempo de llegada: minuto 207 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 2 minutos
+Caja Normal 1 liberada en minuto 209
+
+Tiempo de llegada: minuto 211 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 7 minutos
+Caja Normal 1 liberada en minuto 218
+
+Tiempo de llegada: minuto 232 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 5 minutos
+Caja Normal 1 liberada en minuto 237
+
+Tiempo de llegada: minuto 259 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 5 minutos
+
+Tiempo de llegada: minuto 260 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 2 atiende cliente. Tiempo de servicio: 1 minutos
+Caja Normal 2 liberada en minuto 261
+
+Tiempo de llegada: minuto 262 
+Llega cliente: Preferente 
+Clientes en Cola Normal: 0 
+Clientes en Cola Premier: 1
+Caja Premier atiende cliente. Tiempo de servicio: 2 minutos
+Caja Premier liberada en minuto 262
+Caja Normal 1 liberada en minuto 264
+
+Tiempo de llegada: minuto 272 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 3 minutos
+Caja Normal 1 liberada en minuto 275
+
+Tiempo de llegada: minuto 277 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 6 minutos
+
+Tiempo de llegada: minuto 279 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 2 atiende cliente. Tiempo de servicio: 5 minutos
+Caja Normal 1 liberada en minuto 283
+Caja Normal 2 liberada en minuto 284
+
+Tiempo de llegada: minuto 286 
+Llega cliente: Normal 
+Clientes en Cola Normal: 1 
+Clientes en Cola Premier: 0
+Caja Normal 1 atiende cliente. Tiempo de servicio: 8 minutos
+Caja Normal 1 liberada en minuto 294
+
+Resumen Final:
+Total de Clientes que llegaron al banco: 40
+Total de Clientes que fueron atendidos: 40
+Clientes Preferenciales: 8
+Clientes que quedaron en Cola Normal: 0
+Clientes que quedaron en Cola Premier: 0

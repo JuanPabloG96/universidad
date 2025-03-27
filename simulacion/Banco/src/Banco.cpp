@@ -55,7 +55,7 @@ std::string Banco::Simular() {
     if (tiempoActual == acumuladorTiempoEntreClientes) {
       // Generar nuevo tiempo entre llegadas
       tiempoEntreClientes = 0;
-      while (tiempoEntreClientes == 0) {
+      while (tiempoEntreClientes < 1) {
         tiempoEntreClientes = generador.distribucionExponencial(mediaLlegada);
       }
       acumuladorTiempoEntreClientes += tiempoEntreClientes;

@@ -19,7 +19,7 @@ float Generador::distribucionPoisson(int media, int tiempoSimulacion) {
 
     while (u > probabilidadAcumulada) {
         numeroEventos++;
-        probabilidadAcumulada *= lambda / numeroEventos;
+        probabilidadSinEventos *= lambda / numeroEventos;
         probabilidadAcumulada += probabilidadSinEventos;
     }
     return numeroEventos;
